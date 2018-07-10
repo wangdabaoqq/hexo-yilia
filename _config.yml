@@ -60,7 +60,7 @@ weixin:
 # Miscellaneous
 baidu_analytics: '342be46a235a2deca7056d0af89b1269'
 google_analytics: ''
-favicon: https://qn.tyty.me/icon.png
+favicon: ./assets/img/avatar.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
