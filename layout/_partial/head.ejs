@@ -33,6 +33,11 @@
   <% } %>
   <%- partial('css') %>
   <style type="text/css">
+	@media (max-width: 1000px) {
+	#github_image {
+		display: none;	
+	}
+}
   <% var defaultCtnBg = 'linear-gradient(200deg,#a0cfe4,#e8c37e)' %>
     #container.show {
       background: <%= theme.style && theme.style.slider ? theme.style.slider : defaultCtnBg %>;
